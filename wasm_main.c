@@ -1,7 +1,4 @@
-
-int main(){
-    int from_num = 1;
-    int to_num = 1e8;
+int count_number_two(int from_num, int to_num){
     int count = 0;
 
     for(int i=from_num;i<=to_num;i++){

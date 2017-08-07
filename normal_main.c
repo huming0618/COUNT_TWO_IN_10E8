@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
+
 int main(){
     int from_num = 1;
     int to_num = 1e8;
