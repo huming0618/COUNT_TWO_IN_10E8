@@ -11,14 +11,15 @@ int main(){
     clock_t begin = clock();
 
     for(int i=from_num;i<=to_num;i++){
-        int tmp = i;
-        do{
-            int test = tmp % 10;
-            if (test == 2){
+        char num_text[9];
+        sprintf(num_text, "%d", i);
+        //printf("num_text  %s \n", num_text);
+        int n;
+        for(n=0;num_text[n] != 0;n++){
+            if (num_text[n] == '2'){
                 count++;
             }
-            tmp = tmp/10;
-        }while(tmp);
+        }
         //printf("num_text  %s %d \n", num_text, n);
     }
 

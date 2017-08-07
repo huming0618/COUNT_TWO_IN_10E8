@@ -22,3 +22,6 @@ double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
 
 ### Compile
 `gcc -Wall main.c -o output/main`
+
+### online compile for wasm
+https://wasdk.github.io/WasmFiddle/
